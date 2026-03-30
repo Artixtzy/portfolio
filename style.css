@@ -121,3 +121,29 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
+.nav-link-custom {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.nav-link-custom:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .nav-link-custom {
+        margin: 8px 0;
+        display: block;
+    }
+
+    .mode-btn {
+        margin-top: 10px;
+    }
+}
