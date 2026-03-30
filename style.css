@@ -70,7 +70,7 @@ body {
     transition: 0.4s;
 }
 
-/* Glasses shine hover effect */
+/* Shadow hover effect */
 .profile-img:hover {
     box-shadow: 0 0 20px rgba(200, 10, 10, 0.8);
     transform: scale(1.05);
@@ -106,7 +106,7 @@ body {
 }
 
 .cert-image {
-    max-width: 320px;
+    max-width: 330px;
     width: 100%;
     height: auto;
     display: block;
